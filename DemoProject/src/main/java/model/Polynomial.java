@@ -81,7 +81,7 @@ public class Polynomial {
 		}
 	}
 	
-	public Monomial getHighestTerm() {
+	private Monomial getHighestTerm() {
 		//Returns the Monomial corresponding to the highest power of x in this Polynomial.
 		//If the Polynomial is empty, will return 0
 		Monomial result = new Monomial(0, 0);
